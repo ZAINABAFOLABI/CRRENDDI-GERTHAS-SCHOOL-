@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay Now</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 18px;
+            background-color:lemonchiffon;
+        }
+       .form-group{
+           box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 14px;
+            
+       } 
+       h1, h2, .form-group{
+           text-align: center;
+       }
+       .form-group{
+           margin-bottom: 10px;
+       }
+       h1{
+        color:  #d31414;
+       }
+       h2{
+           color: brown;
+       }
+       .form-wrap{
+           background:whitesmoke;
+           width: 300px;
+           height: 470px;
+           line-height: 1.4em;
+           margin: auto;
+           border: 2px  #d31414 solid;
+           color: brown;
+       }
+       .form-wrap, .form-group{
+           display: block;
+       }
+       .btn{
+           font-size: 14px;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           text-align: center;
+       }
+       .clr{
+            clear: both;
+        }
+        #container{
+        max-width: 960px;
+        margin: auto auto;
+        }
+        .form-wrap .btn:hover{
+            background :#d31414;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <h1>CRRENDDI GERTHAS ELEMENTARY SCHOOL LEKKI</h1>
+    
+    <form action="process.php">
+        
+        <div id="container">
+        <h2>Tuition Fee Payment</h2>
+         <div class="form-wrap">
+        <div class="form-group">
+            <label for=" First Name"> First name</label> <br>
+            <input type="text" name="Name" id="First Name" cols="50" rows="5">
+        </div>    
+        
+        <div class="form-group">
+            <label for="Last Name"> Last name</label> <br>
+            <input type="text" name="Last Name" id="Last Name">
+        </div>    
+        
+        <div class="form-group">
+            <label for="Email"> Email</label> <br>
+            <input type="email" name="Email" id="Email">
+        </div>
+        <div class="form-group">
+            <label for="Phone number"> Phone number</label> <br>
+            <input type="number"name="Phone number" id="Phone number">
+        </div>
+        <div class="form-group">
+            <label for="Name of Child "> Name of Child</label> <br>
+            <input type="text" name="Name of Child" id="Name of Child">
+        </div>
+        <div class="form-group">
+            <label for="Term"> Term</label> <br>
+            <input type="text" name="Term" id="Term">
+        </div>
+        <div class="form-group">         
+            <label for="Amount">Amount</label> <br>
+            <input type="number" name="Amount" id="Amount">
+        
+      
+        <BR></BR>
+        <button type="submit" class="btn">PAY</button>
+    </div>
+    </div>
+    </div>
+
+
+    </form>
+</body>
+</html> 
