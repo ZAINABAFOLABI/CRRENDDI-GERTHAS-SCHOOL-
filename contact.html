@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <style>
+         body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 18px;
+            background-color:lemonchiffon;
+        }
+       .form-group{
+           box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 14px;
+            margin-bottom: 10px;
+            display: inline-block;
+            
+       } 
+       h1, h2, .form-group{
+           text-align: center;
+       }
+        h1{
+        color:  #d31414;
+       }
+       h2{
+           color: brown;
+       }
+       .form-wrap{
+           background:whitesmoke;
+           width: 400px;
+           height: 470px;
+           line-height: 1.4em;
+           margin: auto;
+           border: 2px  #d31414 solid;
+           color: brown;
+       }
+       .form-wrap, .form-group{
+           display: block;
+       }
+       .btn{
+           font-size: 14px;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           text-align: center;
+           padding: 1rem;
+           margin-left: 5rem;
+           margin-bottom: 1rem;}
+
+       
+        .container {
+        max-width:960px;
+        margin:auto;
+        }
+        .btn:hover {
+            background :#d31414;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <h1>CRRENDDI GERTHAS GROUP OF SCHOOLS</h1>
+    
+    <form action="process.php">
+        
+        <div class="container">
+        <h2>CONTACT FORM</h2>
+         <div class="form-wrap">
+        <div class="form-group">
+            <label for=" First Name"> First name</label> <br>
+            <input type="text" name="Name" id="First Name" cols="30" rows="5">
+        </div>    
+        
+        <div class="form-group">
+            <label for="Last Name"> Last name</label> <br>
+            <input type="text" name="Last Name" id="Last Name">
+        </div>    
+        
+        <div class="form-group">
+            <label for="Email"> Email</label> <br>
+            <input type="email" name="Email" id="Email">
+        </div>
+        <div class="form-group">
+            <label for="Phone number"> Phone number</label> <br>
+            <input type="number"name="Phone number" id="Phone number">
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label><br>
+            <textarea name="message" id="Message" cols="30" rows="5"></textarea>
+        </div>
+         
+       
+        <BR></BR>
+        <button type="submit" class="btn">SUBMIT</button>
+    </div>
+    </div>
+    
+    </form>
+</body>
+</html>
